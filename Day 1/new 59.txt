@@ -1,0 +1,8 @@
+First Day Task
+GitHub account - https://github.com 
+1. Git installed - https://git-scm.com/downloads 
+2. webMethods Service Designer - https://tech.forums.softwareag.com/t/guide-to-download-and-install-webmethods-service-designer-free-download/235210 
+3. SQL Server Developer Edition & Management Studio - https://www.microsoft.com/en-gb/sql-server/sql-server-downloads
+Please understand the usage of Math services - https://documentation.softwareag.com/webmethods/microservices_container/msc10-5/10-5_MSC_PIE_webhelp/index.html#page/integration-server-integrated-webhelp%2FMath%2520folder2.html%23wwconnect_header
+
+GitHub UpFileFromLocalToGitHub:  https://youtu.be/iv8rSLsi1xo
