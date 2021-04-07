@@ -1,0 +1,14 @@
+<Modules>
+- List
+- String
+- Json
+- Log /Lastsomething...
+
+PipeLine: 
+
+<Functions>
+Finary: Clearn error
+Sequence: Modify/ Getback Bahavior
+MAP: Execute next mapped step 
+Try/ Catch:
+https://www.w3schools.com/java/java_try_catch.asp
