@@ -1,0 +1,11 @@
+What I did - BasicStructure
+- Loop
+- Repeat
+- MAP	 (IF - Do ***)
+- Branch (Condition ?)
+- DeleteLogfile on GitBush
+
+What I couldn't achieve
+- Last Operation from 40mins on Vid
+- PostMan
+- Vi thing
