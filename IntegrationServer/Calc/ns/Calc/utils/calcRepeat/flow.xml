@@ -4,7 +4,7 @@
 
   <!-- nodes -->
 
-<RETRY TIMEOUT="" COUNT="" BACK-OFF="" LOOP-ON="SUCCESS">
+<RETRY TIMEOUT="" COUNT="3" BACK-OFF="5" LOOP-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -23,7 +23,12 @@
 
   <!-- nodes -->
 
-<MAP NAME="nene" TIMEOUT="" MODE="STANDALONE">
+<SEQUENCE NAME="nene" TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT></COMMENT>
   <MAPTARGET>
 
@@ -111,6 +116,11 @@
 </DATA>
 </MAPSET>
 </MAP>
+
+<EXIT FROM="$flow" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
+  <COMMENT></COMMENT>
+</EXIT>
+</SEQUENCE>
 </BRANCH>
 </LOOP>
 </RETRY>
