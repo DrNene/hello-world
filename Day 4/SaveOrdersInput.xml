@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="Order" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="currency">123</value>
+      <double name="subtotal" type="java.lang.Double">1.0</double>
+      <number name="discountAmount" type="java.lang.Long">11</number>
+      <number name="taxAmount" type="java.lang.Long">11</number>
+      <double name="grandTotal" type="java.lang.Double">11.0</double>
+      <value name="orderId">3</value>
+      <value name="emailAddress">11</value>
+      <double name="shippingAmount" type="java.lang.Double">11.0</double>
+      <value name="shippingDate">11</value>
+      <value name="shippingDetails">11</value>
+      <value name="shippingTrackingUrl">111</value>
+      <value name="shippingAddress">11</value>
+      <array name="lineItems" type="record" depth="1">
+        <record javaclass="com.wm.data.ISMemDataImpl">
+          <value name="sku">1</value>
+          <value name="name">1</value>
+          <value name="description">1</value>
+          <value name="category">1</value>
+          <value name="other">1</value>
+          <double name="unitPrice" type="java.lang.Double">1.0</double>
+          <double name="salePrice" type="java.lang.Double">1.0</double>
+          <number name="quantity" type="java.lang.Long">1</number>
+          <double name="totalPrice" type="java.lang.Double">1.0</double>
+        </record>
+      </array>
+    </record>
+  </record>
+</IDataXMLCoder>
