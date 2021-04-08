@@ -13,5 +13,10 @@ https://www.geeksforgeeks.org/switch-vs-else/
 
 XML/JSON
 
+Put: Create Information
+Get: Retrieve the infor
+Remove: Remove info from cache
+containKey: Check if particular info is available by key
+getAll: Get all the information you need
 
 
