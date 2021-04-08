@@ -1,0 +1,17 @@
+Canonical document:
+generally used for internal processing purpose.
+So that backend systems know this format and another usage is 
+if you publish the cannonical document then many underlying systems can reusable this doc 
+and subscribe (pb/sub)for further processings.
+
+
+
+InCase:
+IfElse:
+https://techdifferences.com/difference-between-if-else-and-switch.html#:~:text=The%20fundamental%20difference%20between%20if,according%20to%20a%20keyboard%20command”.
+https://www.geeksforgeeks.org/switch-vs-else/
+
+XML/JSON
+
+
+

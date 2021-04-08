@@ -1,0 +1,37 @@
+{
+        "currency": "USD",
+        "subtotal": 35.98,
+        "discountAmount": 0,
+        "taxAmount": 0,
+        "grandTotal": 35.98,
+        "orderId": "123ABC",
+        "emailAddress": "example@example.com",
+        "shippingAmount": 7.99,
+        "shippingDate": "08/04/2021",
+        "shippingDetails": "FedEx",
+        "shippingTrackingUrl": "http://fedex.com/tracking/NIeX3KYLcPhgRzKy",
+		"shippingAddress": "somewhere in India or KL",
+        "lineItems": [{
+                "sku": "576879",
+                "name": "Shirt",
+                "description": "A super great description of Shirt",
+                "category": "Shirts > T-Shirts > Blue",
+                "other": "This can be any string value you like",
+                "unitPrice": 11.99,
+                "salePrice": 11.99,
+                "quantity": 2,
+                "totalPrice": 23.98
+              },
+             {
+                 "sku": "1112296",
+                 "name": "Fleece Jacket",
+                 "description": "A well appointed Fleece jacket",
+                 "category": "Jackets > Winter > Fleece",
+                 "other": "This can be any string value you like",
+                 "unitPrice": 65.99,
+                 "salePrice": 55.50,
+                 "quantity": 1,
+                 "totalPrice": 55.50   
+            }
+        ]
+    }
