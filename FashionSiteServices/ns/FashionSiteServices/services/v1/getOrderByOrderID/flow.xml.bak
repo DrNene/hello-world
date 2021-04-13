@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -371,13 +372,16 @@
 <MAPDELETE FIELD="/value;3;0">
 </MAPDELETE>
 
+<MAPCOPY FROM="/value;3;0" TO="/Order;4;0;FashionSiteDocs.docs.v1:Orders">
+</MAPCOPY>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/status;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Order Successfully placed</value>
+  <value name="xml">Order retrieved from Cach</value>
   <record name="type" javaclass="com.wm.util.Values">
-    <value name="node_type">record</value>
+    <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
     <value name="field_name">status</value>
@@ -390,9 +394,6 @@
 </Values>
 </DATA>
 </MAPSET>
-
-<MAPCOPY FROM="/value;3;0" TO="/Order;4;0;FashionSiteDocs.docs.v1:Orders">
-</MAPCOPY>
 </MAP>
 </INVOKE>
 </SEQUENCE>
