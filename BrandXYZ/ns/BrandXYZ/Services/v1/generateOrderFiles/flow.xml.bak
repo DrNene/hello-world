@@ -19,7 +19,7 @@
 </MAP>
 </INVOKE>
 
-<LOOP TIMEOUT="" IN-ARRAY="/elements">
+<LOOP TIMEOUT="" IN-ARRAY="/AllOrders">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -99,12 +99,11 @@
         <value name="is_public">false</value>
         <value name="field_name">AllOrders</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
+        <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
@@ -147,7 +146,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/AllOrders;4;1;FashionSiteDocs.docs.v1:Orders" TO="/document;2;0">
+<MAPCOPY FROM="/AllOrders;4;0;FashionSiteDocs.docs.v1:Orders" TO="/document;2;0">
 </MAPCOPY>
 </MAP>
 
@@ -190,12 +189,11 @@
         <value name="is_public">false</value>
         <value name="field_name">AllOrders</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
+        <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
@@ -361,12 +359,11 @@
         <value name="is_public">false</value>
         <value name="field_name">AllOrders</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
+        <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
@@ -491,12 +488,11 @@
         <value name="is_public">false</value>
         <value name="field_name">AllOrders</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
+        <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
