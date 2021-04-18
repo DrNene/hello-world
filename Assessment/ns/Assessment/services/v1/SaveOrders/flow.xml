@@ -24,7 +24,7 @@
 </MAP>
 </INVOKE>
 
-<BRANCH NAME="/Order/orderId" TIMEOUT="" SWITCH="/Order/orderId">
+<BRANCH NAME="/Order/orderId" TIMEOUT="" SWITCH="/Order/orderId &amp;&amp; /Order/orderId">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -311,7 +311,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
+        <value name="rec_ref">FashionSiteDocs.docs.v1:Order</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -364,6 +364,9 @@
 
 <MAPCOPY FROM="/Order;4;0;FashionSiteDocs.docs.v1:Orders" TO="/document;2;0">
 </MAPCOPY>
+</MAP>
+
+<MAP MODE="OUTPUT">
 </MAP>
 </INVOKE>
 
@@ -473,7 +476,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
+        <value name="rec_ref">FashionSiteDocs.docs.v1:Order</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -613,7 +616,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
+        <value name="rec_ref">FashionSiteDocs.docs.v1:Order</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -692,6 +695,9 @@
 </MAPDELETE>
 
 <MAPDELETE FIELD="/jsonString;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/fileName;1;0">
 </MAPDELETE>
 </MAP>
 </INVOKE>
@@ -1131,7 +1137,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
+        <value name="rec_ref">FashionSiteDocs.docs.v1:Order</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -1438,7 +1444,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">FashionSiteDocs.docs.v1:Orders</value>
+        <value name="rec_ref">FashionSiteDocs.docs.v1:Order</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -1894,17 +1900,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">pattern</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">fileName</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
